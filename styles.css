@@ -1,0 +1,39 @@
+.jumbotron-fluid {
+    margin-bottom: : 20px;
+    min-height: 350px;
+    background-image: url(chair_background.jpg);
+    background-position: 30% 60%;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: black;
+}
+
+.display-3{
+text-shadow: white 0.3em 0.3em 0.3em;
+color: black;
+}
+
+.container .jumbotron-fluid{
+  padding: 0px;
+}
+
+.card-img-top{
+  height: 260px;
+}
+
+.marketing{
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: .004em;
+  margin-top: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.marketingimg{
+  width: 100%;
+  height: 600px;
+}
