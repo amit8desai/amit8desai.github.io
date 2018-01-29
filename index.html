@@ -6,7 +6,7 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
      <link rel="stylesheet" href="styles.css">
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -17,7 +17,9 @@
    <body>
    <!-- Code for the Nav bar-->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <p class="navbar-brand">Posh-chair</p>
+     <div class="poshlogo">
+        <div class="navbar-brand mx-auto" id="logo">Posh-chair</div>
+      </div>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
      </button>
@@ -50,12 +52,21 @@
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more about the benefits</a>
+          <a class="btn btn-primary btn-lg" href="benefits.html" role="button">Learn more about the benefits</a>
         </p>
       </div>
     </div>
 
 <!--Code for the 3 product types-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center">
+          <h2 id="videotext">A chair designed for you</h2>
+          <iframe id="marketingvideo" width="560" height="315" src="https://www.youtube.com/embed/7YVTS6Yj4Co" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-4 text-center">
