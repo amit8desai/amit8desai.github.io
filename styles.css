@@ -1,17 +1,17 @@
 .jumbotron-fluid {
-    margin-bottom: : 20px;
-    min-height: 350px;
-    background-image: url(chair_background.jpg);
-    background-position: 30% 60%;
-    background-size: 1400px;
-    background-repeat: no-repeat;
-    text-align: left;
-    color: black;
+  margin-bottom: : 20px;
+  min-height: 350px;
+  background-image: url(chair_background.jpg);
+  background-position: 30% 60%;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: black;
 }
 
 .display-3{
-text-shadow: white 0.3em 0.3em 0.3em;
-color: black;
+  text-shadow: white 0.3em 0.3em 0.3em;
+  color: black;
 }
 
 .container .jumbotron-fluid{
@@ -38,6 +38,22 @@ color: black;
   height: 500px;
 }
 
+.poshlogo{
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamcard{
+  height: 450px;
+}
+
+.teampic{
+  height: 325px;
+}
+
 #videotext{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -45,12 +61,4 @@ color: black;
 
 #marketingvideo{
   margin-bottom: 50px;
-}
-
-.poshlogo {
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 50;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
